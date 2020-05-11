@@ -1,0 +1,23 @@
+<AnalyzeParams>
+    <Output>dotCover.html</Output>
+    <ReportType>html</ReportType>
+    <AttributeFilters>
+        <AttributeFilterEntry>
+            <ClassMask>System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute</ClassMask>
+        </AttributeFilterEntry>
+    </AttributeFilters>
+    <Scope>
+        <ScopeEntry>../JokeGenerator/**/*.dll</ScopeEntry>
+        <ScopeEntry>../JokeGenerator/**/*.exe</ScopeEntry>
+    </Scope>
+    <Filters>
+        <ExcludeFilters>
+            <FilterEntry>
+                <ModuleMask>JokeGeneratorUnitTests</ModuleMask>
+            </FilterEntry>
+            <FilterEntry>
+                <ModuleMask>xunit.assert</ModuleMask>
+            </FilterEntry>
+        </ExcludeFilters>
+    </Filters>
+</AnalyzeParams>

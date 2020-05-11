@@ -1,0 +1,7 @@
+namespace JokeGenerator
+{
+    interface IJokeGenerator
+    {
+
+    }
+}
